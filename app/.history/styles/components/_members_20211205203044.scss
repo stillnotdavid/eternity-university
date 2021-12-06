@@ -1,0 +1,13 @@
+.member {
+  display: flex;
+
+  &__photo {
+    height: 600px;
+    width: 400px;
+    background-image: url('../../images/member__irene.jpeg');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__info {}
+}

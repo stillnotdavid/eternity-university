@@ -1,0 +1,12 @@
+@import 'partials/colors';
+@import 'partials/spacing';
+@import 'partials/typography';
+
+@import 'components/header';
+
+
+
+.container {
+  display: flex;
+  max-width: 1200px;
+}

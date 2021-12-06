@@ -1,0 +1,26 @@
+.header {
+
+  &__logo {
+    &-image {
+      height: 50px;
+    }
+  }
+
+  &__nav {
+    &-links {
+      display: flex;
+      list-style-type: none;
+    }
+
+    &-item {}
+
+    &-link {
+      padding: $spacing-large;
+      text-decoration: none;
+
+      &:hover {
+        background: pink;
+      }
+    }
+  }
+}

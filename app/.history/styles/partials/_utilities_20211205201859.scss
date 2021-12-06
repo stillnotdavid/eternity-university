@@ -1,0 +1,24 @@
+$sides: top,
+bottom,
+left,
+right;
+
+@each $side in $sides {
+  .no-margin {
+    margin: 0;
+
+    &--#{$side} {
+      margin-#{$side}: 0;
+    }
+  }
+}
+
+@each $side in $sides {
+  .no-padding {
+    padding: 0;
+
+    &--#{$side} {
+      padding-#{$side}: 0;
+    }
+  }
+}

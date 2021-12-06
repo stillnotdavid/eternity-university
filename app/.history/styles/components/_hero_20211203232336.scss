@@ -1,0 +1,27 @@
+$_hero-height: 450px;
+
+.hero {
+  height: $_hero-height;
+  background: pink;
+  display: flex;
+
+  &__container {}
+
+  &__cta {
+    flex: 1 0 50%;
+
+    &-button {
+      background-color: $color-primary;
+      padding: $spacing-large $spacing-xlarge;
+      text-decoration: none;
+      color: white;
+    }
+
+  }
+
+  &__image {
+    flex: 1 0 50%;
+
+    background: beige;
+  }
+}

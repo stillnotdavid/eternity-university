@@ -1,0 +1,23 @@
+.header {
+
+  &__logo {
+    &-image {
+      height: 50px;
+    }
+  }
+
+  &__nav {
+    &-links {
+      display: flex;
+      list-style-type: none;
+    }
+
+    &-item {
+      padding: $spacing-medium;
+    }
+
+    &-link {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+
+  &__logo {
+    &-image {
+      height: 50px;
+    }
+  }
+
+  &__nav {
+    &-links {
+      display: flex;
+      list-style-type: none;
+    }
+
+    &-item {
+      // margin-right: 10px;
+    }
+
+    &-link {
+      text-decoration: none;
+    }
+  }
+}

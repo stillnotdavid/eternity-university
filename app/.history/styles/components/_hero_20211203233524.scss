@@ -1,0 +1,23 @@
+$_hero-height: 650px;
+
+.hero {
+  height: $_hero-height;
+  background: $background-primary;
+  display: flex;
+
+  &__container {
+    align-items: center;
+  }
+
+  &__cta {
+    flex: 0 0 50%;
+    padding: $spacing-xlarge;
+  }
+
+  &__image {
+    flex: 0 0 50%;
+    height: 450px;
+    background-image: url('../../images/hero.jpeg');
+    background-size: cover;
+  }
+}

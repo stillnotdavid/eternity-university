@@ -1,0 +1,42 @@
+$_logo-height: 50px;
+
+
+.header {
+
+  &__container {
+    justify-content: space-between;
+  }
+
+  &__logo {
+    &-image {
+      height: $_logo-height;
+    }
+  }
+
+  &__nav {
+    &-links {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    &-item {
+      display: flex;
+    }
+
+    &-link {
+      padding: $spacing-xlarge $spacing-large;
+      text-decoration: none;
+      color: $color-secondary;
+      text-transform: uppercase;
+      font-size: $font-small;
+      font-weight: $font-bold;
+      letter-spacing: 1px;
+
+      &:hover {
+        color: $color-primary;
+        border-top: 3px solid $color-primary;
+      }
+    }
+  }
+}

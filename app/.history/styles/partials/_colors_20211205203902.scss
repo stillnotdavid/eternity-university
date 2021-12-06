@@ -1,0 +1,30 @@
+$color-primary: #B50000;
+$color-secondary: #6F2F2F;
+$color-tertiary: #00303B;
+
+$background-primary: #F9EDED;
+
+
+$colors: ("primary": $color-primary,
+  "secondary": $color-secondary);
+
+
+@each $name,
+$color in $colors {
+  .background {
+
+    &--#{$name} {
+      background-color: #{$color};
+    }
+  }
+}
+
+@each $name,
+$color in $colors {
+  .color {
+
+    &--#{$name} {
+      color: #{$color} !important;
+    }
+  }
+}

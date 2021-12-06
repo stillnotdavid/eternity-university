@@ -1,0 +1,11 @@
+@import 'partials/colors';
+@import 'partials/spacing';
+@import 'partials/typography';
+
+@import 'components/header';
+
+
+
+.container {
+  display: flex;
+}

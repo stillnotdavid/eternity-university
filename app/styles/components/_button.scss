@@ -1,0 +1,12 @@
+.button-primary {
+  display: inline-block;
+  background-color: $color-primary;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  font-size: $font-medium;
+  font-weight: $font-bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: $spacing-large 0;
+}

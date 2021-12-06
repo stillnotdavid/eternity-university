@@ -1,0 +1,10 @@
+.about {
+  &__image {
+    height: 380px;
+  }
+
+  &__text {
+    background: $color-primary;
+    color white;
+  }
+}

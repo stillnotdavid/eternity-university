@@ -1,0 +1,14 @@
+.trivia {
+  text-align: center;
+  padding: $spacing-xlarge;
+
+  &__container {
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: $font-xlarge;
+    font-weight: $font-bold;
+    color: $color-secondary;
+  }
+}

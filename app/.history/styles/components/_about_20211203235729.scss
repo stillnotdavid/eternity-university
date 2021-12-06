@@ -1,0 +1,18 @@
+.about {
+  background: $background-primary;
+  padding: 40px 0;
+
+  &__container {
+    align-items: flex-end;
+  }
+
+  &__image {
+    height: 380px;
+  }
+
+  &__text {
+    background: $color-primary;
+    color: white;
+    padding: 40px;
+  }
+}

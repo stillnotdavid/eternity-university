@@ -1,0 +1,19 @@
+@import 'partials/colors';
+@import 'partials/spacing';
+@import 'partials/typography';
+
+@import 'components/header';
+@import 'components/hero';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

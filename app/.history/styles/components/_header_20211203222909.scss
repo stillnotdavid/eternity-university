@@ -1,0 +1,18 @@
+.header {
+
+  &__logo {
+    &-image {
+      height: 50px;
+    }
+  }
+
+  &__nav {
+    &-links {
+      list-style-type: none;
+    }
+
+    &-item {}
+
+    &-link {}
+  }
+}
